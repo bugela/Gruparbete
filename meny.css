@@ -1,0 +1,36 @@
+/* Bakgrundsbild i Menysidan. */
+
+.banner-image {
+    background-image: url(bakgrundsbild.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Styling på classen card. */
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.card-body, .text-body-secondary {
+    color: white;
+}
+
+.card:hover {
+    transform: scale(1.15);
+    padding: 2%;
+}
+
+/* Styling på classen contant. */
+
+.contant {
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 60px;
+    text-align: center;
+    left: 20%;
+}
