@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{ 
+    margin: 0;        /* tar bort onödiga mellanrum  */
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+header {
+    
+    background-color: #313a40;
+    color: white;
+    grid-area: header;
+    padding: 10px;
+    border-radius: 3px;
+    opacity: 0.9;
+}
+header {
+    text-align: center;
+}
+
+/* header text */
+.rubrik a{ 
+    text-decoration: none;
+}
+
+b{
+    color: #ff511c; /* color för header namn */
+}
+.info{
+    background-color: #313a40;  /* stil för info förmulär */
+    opacity: 0.8;
+}
+.info p, h3, h4 {   /* stil för info förmulär */
+    font-weight: bold;
+    max-width: 600px; 
+    margin: 0 auto; /* Center the text horizontally */
+    text-align: justify; /* Justify the text */
+    color: white;
+    padding: 3px;
+   
+    
+}
+
+body {
+    background-image: url(bord2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f4f4f4;
+   
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: darkgray;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+}
+
+
+form {   /* förmulär */
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 100px;
+}
+label {
+    margin-bottom: 5px;
+}
+
+/* inmatningsområde i förmulär */
+input[type="text"], 
+input[type="email"],
+input[type="tel"],
+select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Submit knapp */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+   
+}
+/* stil för submit knap */
+input[type="submit"]:hover {
+    background-color: green;
+}
+
+/* Meddelande area */
+textarea{
+    width: 100%;
+    padding: 10px;
+    resize: vertical;
+    border: 1px solid #ccc
+}
+
+/* footer */
+footer{
+    text-align: center;
+    margin-top: 80px; /* samma storlek som vh  det va 87 innan*/
+    padding: 20px;
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+    position: sticky;
+}
+
+/* sociala media ikoner */
+.social{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    gap: 1.5rem;
+}
+.social a{
+    color: white;
+}
+.social a:hover {
+    color: #007BFF;
+}
